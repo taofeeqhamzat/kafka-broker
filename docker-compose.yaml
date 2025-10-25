@@ -9,7 +9,7 @@ services:
       KAFKA_KRAFT_MODE: "true"
 
       CLUSTER_ID: "1030f18e-b994-4502-909c"
-      KAFKA_NODE_ID: "1"
+      KAFKA_NODE_ID: 1
 
       KAFKA_PROCESS_ROLES: broker,controller
       KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
