@@ -8,7 +8,7 @@ services:
     environment:
       KAFKA_KRAFT_MODE: "true"
 
-      CLUSTER_ID: "UNiQUE_CLUSTER_ID"  # Replace with a unique cluster ID (use `kafka-storage.sh random-uuid` to generate one)
+      CLUSTER_ID: "UNiQUE_CLUSTER_ID"  # Replace with a unique cluster ID (use `kafka-storage random-uuid` to generate one)
       KAFKA_NODE_ID: 1
 
       KAFKA_PROCESS_ROLES: broker,controller
